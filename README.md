@@ -1,16 +1,25 @@
-# nametopdf
+# Name to PDF App
 
-A new Flutter project.
+This Flutter app allows users to enter their name, generate a PDF file with the name printed on it, and automatically open the generated PDF. The PDF is saved in the "Documents" directory on the user's device.
+
+## Features
+
+- **Input Name**: Users can input their name using a text field.
+- **Generate PDF**: The app generates a PDF file that displays the entered name.
+- **Save to Documents**: The PDF is saved in the "Documents" directory on the device.
+- **Open PDF**: After generating, the PDF is automatically opened for viewing.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed.
+- An IDE like Android Studio or VS Code with Flutter and Dart plugins.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/name_to_pdf_app.git
+   cd name_to_pdf_app
